@@ -19,21 +19,40 @@ https://github.com/subashs8/Feature-Branch-Workflow/issues/url
 
 Documentation of git commands used, and annotated sample sequence of commands used in creating your repository
 $git clone https://github.com/subashs8/Feature-Branch-Workflow
+
 Clones the branches in the repository
+
 $git cd master
+
 $git checkout master 
+
 Updates the master branch with existing changes
+
 $git fetch origin
+
 Reads the code in the origin file
+
 $git reset --hard/origin master
+
 Makes sure the origin branch is the same as the master branch 
+
 $git checkout -b new-feature 
+
 Creates a branch with the new feature’s name
+
 $git status
+
 Shows what updates have been made
+
 $git add new file
+
 Adds a new file
+
 $git commit 
+
 Commits the edits
+
 $git push -u origin new feature
+
 Pushes the feature to a backup branch 
+
